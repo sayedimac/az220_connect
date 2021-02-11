@@ -15,7 +15,7 @@ namespace az220_connect
         // Note: in real-world applications you would not "hard-code" the connection string
         // It could be stored within an environment variable, passed in via the command-line or
         // stored securely within a TPM module.
-        private readonly static string connectionString = "HostName=alwayson.azure-devices.net;DeviceId=az220-connect;SharedAccessKey=FuaYbfK/GkzbzGKS3SYJu7MIHsHCeNa0R32L/FY2RmY=";
+        private readonly static string connectionString = "HostName=alwayson.azure-devices.net;DeviceId=az220-connect;SharedAccessKey=H42kn43Bpi/LVnTxSEpqW3SS7T3a5Yd65dliir+oVnQ=";
         private static void Main(string[] args)
         {
             deviceClient = DeviceClient.CreateFromConnectionString(connectionString, TransportType.Mqtt);
